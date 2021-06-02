@@ -10,9 +10,9 @@ class Player {
     this.height = height;
     this.image = loadImage("./assets/player.png");
 
-    this.life1 = "#91ff35";
-    this.life2 = "#91ff35";
-    this.life3 = "#91ff35";
+    this.life1 = "green";
+    this.life2 = "green";
+    this.life3 = "green";
 
     World.add(world, this.body);
   }
